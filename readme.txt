@@ -19,3 +19,5 @@ Kafka Consumer API provides easy way of doing online stream processing.
 Other techs like map reduce are not fit for online stream processing.
 
 There are some other techs e.g. kafka stream and Apache Storm , but for this simple usecase Kafka Consumer API suffices.
+
+For purpose of clarity currently final consumer spits data every 5 seconds and middle consumers spit data at every 2 seconds.
